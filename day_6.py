@@ -32,24 +32,68 @@
 # del b
 # del c
 
-# Dictionary
-empty_dict = {}
-dct = {
-    'name':'udit katre',
-    'age':21,
-    'country':'India',
-    'skills':['Java','Javascript','Python','React'],
-    'address':{
-        'state':'Madhya Pradesh',
-        'city':'Bhopal',
-    }
-}
-print(dct['name'])
-print(dct['age'])
-print(dct['country'])
-print(dct['skills'])
-print(dct['address']['city'])
-print(dct['address']['state'])
+# # Dictionary
+# empty_dict = {}
+# dct = {
+#     'name':'udit katre',
+#     'age':21,
+#     'country':'India',
+#     'skills':['Java','Javascript','Python','React'],
+#     'address':{
+#         'state':'Madhya Pradesh',
+#         'city':'Bhopal',
+#     }
+# }
+# print(dct['name'])
+# print(dct['age'])
+# print(dct['country'])
+# print(dct['skills'])
+# print(dct['address']['city'])
+# print(dct['address']['state'])
+#
+# dog = dict()
+# dog['name'] = 'bruno'
+# dog['color'] = 'brown'
+# dog['breed'] = 'labra'
+# dog['legs'] = 4
+# dog['age'] = 10
+#
+# student = {
+#     'first_name':'udit',
+#     'last_name':'katre',
+#     'age':21,
+#     'gender':'male',
+#     'marital_status':'married',
+#     'skills':['Java','Javascript','Python','React'],
+#     'address':{
+#         'state':'Madhya Pradesh',
+#         'city':'Bhopal',
+#     }
+# }
+# print(len(student))
+# print(type(student['skills']))
+# student['skills'].append('Github')
+# print(student['skills'])
+#
+# keys = student.keys()
+# values = student.values()
+# print(keys)
+# print(values)
+# print(student.items())
+# student.pop('age')
+# student.popitem()
+# del student['first_name']
+# print(student)
+
+# Conditionals
+
+# age = int(input('Enter your age: '))
+#
+# if age >= 18:
+#     print('You are old enough to drive')
+# else:
+#     print(f'you need {18-age} more year to learn to drive')
+
 
 dog = dict()
 dog['name'] = 'bruno'
