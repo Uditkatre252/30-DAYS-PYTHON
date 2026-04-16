@@ -95,36 +95,43 @@
 #     print(f'you need {18-age} more year to learn to drive')
 
 
-dog = dict()
-dog['name'] = 'bruno'
-dog['color'] = 'brown'
-dog['breed'] = 'labra'
-dog['legs'] = 4
-dog['age'] = 10
+# my_age = 22
+# your_age = int(input('Enter your age: '))
+#
+# if my_age > your_age:
+#     diff = my_age - your_age
+#     if diff == 1:
+#         print(f'I am {diff} years older than you')
+#     else:
+#         print(f'I am {diff} years older than you')
+# elif my_age < your_age:
+#     diff = your_age - my_age
+#     if diff == 1:
+#         print(f'You are {diff} years older than me')
+#     else:
+#         print(f'you are {your_age-my_age} years older than me')
+# else:
+#     print('We both are of same age')
 
-student = {
-    'first_name':'udit',
-    'last_name':'katre',
-    'age':21,
-    'gender':'male',
-    'marital_status':'married',
-    'skills':['Java','Javascript','Python','React'],
-    'address':{
-        'state':'Madhya Pradesh',
-        'city':'Bhopal',
-    }
-}
-print(len(student))
-print(type(student['skills']))
-student['skills'].append('Github')
-print(student['skills'])
+# a = int(input('Enter number one: '))
+# b = int(input('Enter number two: '))
+#
+# if a>b:
+#     print(a,"is greater than b")
+# elif a<b:
+#     print(a,"is less than b")
+# else:
+#     print(a,"is equal to b")
 
-keys = student.keys()
-values = student.values()
-print(keys)
-print(values)
-print(student.items())
-student.pop('age')
-student.popitem()
-del student['first_name']
-print(student)
+score = int(input('Enter your score: '))
+
+if score <= 100 and score >= 90:
+    print('You get A grade')
+elif score >=80 and score <=89:
+    print('you get B grade')
+elif score >=70 and score <=79:
+    print('you get C grade')
+elif score >=60 and score <=69:
+    print('you get D grade')
+else:
+    print('you get F grade')
