@@ -123,15 +123,26 @@
 # else:
 #     print(a,"is equal to b")
 
-score = int(input('Enter your score: '))
+# score = int(input('Enter your score: '))
+#
+# if score <= 100 and score >= 90:
+#     print('You get A grade')
+# elif score >=80 and score <=89:
+#     print('you get B grade')
+# elif score >=70 and score <=79:
+#     print('you get C grade')
+# elif score >=60 and score <=69:
+#     print('you get D grade')
+# else:
+#     print('you get F grade')
 
-if score <= 100 and score >= 90:
-    print('You get A grade')
-elif score >=80 and score <=89:
-    print('you get B grade')
-elif score >=70 and score <=79:
-    print('you get C grade')
-elif score >=60 and score <=69:
-    print('you get D grade')
+
+fruits = ['apple','banana','orange','mango']
+add_fruit = input('Enter fruit to add: ')
+if add_fruit not in fruits:
+    fruits.append(add_fruit)
+    print('fruit added')
+    print('fruits:',fruits)
 else:
-    print('you get F grade')
+    print('fruit already exists')
+    print('fruits:',fruits)
