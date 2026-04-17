@@ -1,5 +1,8 @@
 # Functions
 import math
+from itertools import count
+
+
 def print_name(name):
     print(name)
 print_name('udit')
@@ -85,3 +88,20 @@ def sum_of_numbers(num):
     return sum_of_numbers(num-1) + num
 print(sum_of_numbers(100))
 
+def is_prime(num):
+    for i in range(2, int(math.sqrt(num)+1)):
+        if num % i == 0:
+            return False
+    return True
+print(is_prime(7))
+count = 0
+for i in range(2,100):
+    if is_prime(i):
+        count= count+1
+        print(i)
+print(count)
+
+def check_item_is_unique(list1):
+   return len(list1) == len(set(list1))
+
+print(check_item_is_unique(fruits))
