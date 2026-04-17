@@ -19,15 +19,15 @@
 # print(f"Area of the Rectangle is {length*width}")
 # print(f"Perimeter of the Rectangle is {2*(length*width)}")
 
-# # Slope,x-intercept,y-intercept
-# m = 2
-# b = -2
-# slope = m
-# x_intercept = b
-# y_intercept = -b/m
-# print(f"slope {slope}")
-# print(f"x_intercept {x_intercept}")
-# print(f"y_intercept {y_intercept}")
+# Slope,x-intercept,y-intercept
+m = 2
+b = -2
+slope = m
+x_intercept = b
+y_intercept = -b/m
+print(f"slope {slope}")
+print(f"x_intercept {x_intercept}")
+print(f"y_intercept {y_intercept}")
 
 # a = len("python")
 # b = len("dragon")
@@ -74,8 +74,8 @@
 # print(f"you have lived for {total_lived_seconds} seconds")
 
 
-# Loop through numbers 1 to 5
-for i in range(1, 6):
-    # Print the base number, followed by its powers: i^0, i^1, i^2, and i^3
-    # This matches the pattern: n, 1, n, n^2, n^3
-    print(f"{i} {i**0} {i**1} {i**2} {i**3}")
+# # Loop through numbers 1 to 5
+# for i in range(1, 6):
+#     # Print the base number, followed by its powers: i^0, i^1, i^2, and i^3
+#     # This matches the pattern: n, 1, n, n^2, n^3
+#     print(f"{i} {i**0} {i**1} {i**2} {i**3}")
