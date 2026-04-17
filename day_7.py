@@ -63,4 +63,25 @@ def capitalize_list_items(list):
 fruits = ['apple', 'banana', 'orange']
 print(capitalize_list_items(fruits))
 
+def add_item(list, item):
+    if item in list:
+        return 'item already exists'
+    list.append(item)
+    return list
+print(add_item(fruits, 'Mango'))
+print(add_item(fruits, 'banana'))
+
+def remove_item(list, item):
+    if item not in list:
+        return 'item does not exist'
+    list.remove(item)
+    return list
+
+print(remove_item(fruits, 'pineapple'))
+
+def sum_of_numbers(num):
+    if num < 1:
+        return num
+    return sum_of_numbers(num-1) + num
+print(sum_of_numbers(100))
 
