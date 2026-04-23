@@ -46,3 +46,13 @@ num = [(0, 1, 0, 0, 0, 0, 0),
 
 num_to_tup = [(i ,i) for i in num]
 print(num_to_tup)
+
+add = lambda x , y : x+y
+print(add(10,20))
+
+cube = lambda x : x**3
+print(cube(10))
+
+countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
+falttened_countries = [country for list in countries for country in list]
+print(falttened_countries)
