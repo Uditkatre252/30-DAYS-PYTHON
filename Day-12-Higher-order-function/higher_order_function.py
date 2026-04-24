@@ -13,3 +13,6 @@ def square(x):
     return x** 2
 result = map(square, numbers)
 print(list(result))
+
+odd_numbers = filter(lambda x: x%2 == 0, numbers)
+print(list(odd_numbers))
