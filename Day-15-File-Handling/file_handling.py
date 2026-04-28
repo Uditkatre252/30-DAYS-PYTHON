@@ -26,6 +26,7 @@ data_json = json.dumps(data,indent = 4)
 # print(type(data_json))
 # print(data_json)
 data["city"] = "Bhopal"
+data["age"] = '22'
 with open("data.json","w",encoding='utf-8') as f:
 
     json.dump(data,f,ensure_ascii=False,indent=4)
@@ -33,3 +34,18 @@ with open("data.json","w",encoding='utf-8') as f:
 
 with open("data.json","r",encoding='utf-8') as f:
     print(f.read())
+
+if 'name' in data_json:
+    print(data['name'])
+
+
+temp = '''{
+        "name": "udit katre",
+        "email": "uditkatre7@gmail.com"
+}'''
+print(temp)
+temp_dict = json.loads(temp)
+print(type(temp_dict))
+print(temp_dict)
+print(temp_dict['name'])
+print(temp_dict['email'])
