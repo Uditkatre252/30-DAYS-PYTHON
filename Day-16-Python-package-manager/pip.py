@@ -12,6 +12,5 @@ url_lists = [
     'https://github.com/Asabeneh',
     'https://twitter.com/Asabeneh',
 ]
-
-for url in url_lists:
-    webbrowser.open_new_tab(url)
+if 'python' in url_lists:
+    webbrowser.open_new_tab(url_lists)
